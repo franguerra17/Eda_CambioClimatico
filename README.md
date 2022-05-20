@@ -39,7 +39,7 @@ Datos de temperatura:
 ### El índice del Calentamiento Global se calcula de la siguiente manera:
 
 * #### Primera etapa: Cálculo de la anomalía media mensual
->$$AM(i) = Tmed(i) - Tmed$$
+>## *AM(i) = Tmed(i) - Tmed*
 >
 >siendo:
 >AM(i) = Anomalía media anual  
@@ -47,7 +47,7 @@ Datos de temperatura:
 >Tmed = Temperatura media anual de la serie  
   
 * #### Segunda etapa: Cálculo del incremento medio anual con respecto al año anterior
->$$IAM = AM(i) + IAM(i-l)$$
+>## *IAM = AM(i) + IAM(i-l)*
 >
 >siendo:
 >IAM = Incremento acumulado medio  
@@ -55,12 +55,12 @@ Datos de temperatura:
 >IAM(i-l) = Anomalía media anual del año anterior
 
 * #### Tercera etapa: Determinación del Índice de Calentamiento Global
->$$IGC =\dfrac{ Am(i) + IAM}{2}$$
+>## *GC = (AM(i) + IAM) / 2*
 >
 >siendo:
 >IGC = Índice de Calentamiento Global  
 >AM(i) = Anomalía media anual   
->IAM = Incremento acumulado medio  
+>IAM = Incremento acumulado medio 
 
 ## Índice de Calentamiento Global (ICG)
 ![IncrementoICG](./img/ICG.png)
