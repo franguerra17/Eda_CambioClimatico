@@ -55,7 +55,7 @@ Datos de temperatura:
 >IAM(i-l) = Anomalía media anual del año anterior
 
 * #### Tercera etapa: Determinación del Índice de Calentamiento Global
->## *GC = (AM(i) + IAM) / 2*
+>## *IGC = (AM(i) + IAM) / 2*
 >
 >siendo:
 >IGC = Índice de Calentamiento Global  
