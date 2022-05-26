@@ -13,7 +13,7 @@ Los datos sin procesar provienen de la página de datos de [Berkeley Earth](http
  
 ----
 ### **OBJETIVO**
-Queremos realizar la evolución de las temperaturas globales con respecto al tiempo, con ello podemos deducir si realmente el cambio climático es algo real. Primero de todo analizaremos temperaturas globales, para poder ver en que manera está influyendo en nuestro territorio. 
+Queremos realizar la evolución de las temperaturas globales con respecto al tiempo y realizar una comparación con las emisiones de carbono(en toneladas), con ello podemos deducir si existen indicadores del cambio climático que lo demuestren y comprobar si las emisiones de CO2 están relacionadas o no. Primero de todo analizaremos temperaturas globales, para poder ver en que manera está influyendo en nuestro territorio. 
 
 ----
 
@@ -21,6 +21,7 @@ Queremos realizar la evolución de las temperaturas globales con respecto al tie
 Datos de temperatura:
 >Tenemos datos Terrestres desde 1750 a la actualidad, y tenemos datos Globales (Oceánicos y Terrestres) desde 1850 a la actualidad. Los datos útiles empiezan en 1850, y acontinuación demostramos el por qué.
 
+### Gráficos de interés:
 ![IncrementoAnualTªTerrestre](./img/incrementoTEMPterr.png)
 >En este Gráfico podemos observar como se ha incrementado la temperatura terrestre desde 1850 a 2015.  
 
@@ -62,6 +63,7 @@ Datos de temperatura:
 >AM(i) = Anomalía media anual   
 >IAM = Incremento acumulado medio 
 
+### Gráficos de interés:
 ## Índice de Calentamiento Global (ICG)
 ![IncrementoICG](./img/ICG.png)
 > El ICG es un estándar aceptado por diferentes organizaciones, y es un indicador más acertado para comparar el calentamiento global con series temporales.  
@@ -73,6 +75,7 @@ Datos de temperatura:
 ## **PARTE 2. EMISIONES DE CO2 (TONELADAS)**
 Estudiaremos las emisiones de CO2 globales por año para poder comparar con el Índice de Calentamiento Global
 
+### Gráficos de interés:
 ![emisiones](./img/emisiones.png)
 >Podemos observar como las emisiones de CO2 han aumentado de forma exponencial.
 
@@ -87,7 +90,9 @@ Estudiaremos las emisiones de CO2 globales por año para poder comparar con el �
 ## **CONCLUSIONES**
 El análisis del índice de calentamiento global varía en función de la escala temporal que se aplique. Antes de 1925, tanto los protocolos como los intrumentos para realizar mediciones eran más rudimentarios, por lo que nuestras medidas son más inestables antes de esa fecha.
 
-Utilizaremos el periodo base usado por la NASA, el cual acotar a una serie temporal de 30 años (1985-2015).
+Utilizaremos el periodo base usado por la NASA, el cual consiste en acotar a una serie temporal de 30 años, en nuestro caso escogeremo la serie de 1985-2015.
+
+### Gráficos de interés:
 
 ![emisionesVSicg30](./img/emisionesVsICG30.png)
 >En 30 años se puede observar que existe una alta correlación entre las emisiones de CO2 y el índice de calentamiento global.
